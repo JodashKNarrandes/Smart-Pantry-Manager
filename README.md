@@ -1,24 +1,24 @@
-# Smart Pantry Manager
+Smart Pantry Manager
 
 A Java Android application that suggests recipes based strictly on leftover ingredients to cut food waste.
 
-## Project Overview
+Project Overview
 
 Smart Pantry Manager helps users reduce food waste by tracking the ingredients they have at home (their "pantry") and suggesting recipes they can cook using strictly those leftover ingredients. The app enforces a strict-matching rule: a recipe is only suggested if the user has every single ingredient it requires in their pantry.
 
-## Features
+features
 
-- **Pantry Management**: Add, edit, and delete pantry items with name, quantity, unit, and optional expiry date
-- **Pantry List Screen**: View all ingredients using a RecyclerView with custom adapter
-- **Recipe Collection**: 20 pre-loaded recipes stored in SQLite database
-- **Suggested Recipes**: Strict-matching logic shows only recipes you can make right now
-- **Recipe Details**: View full ingredient list and preparation method for each recipe
-- **Settings Screen**: Toggle for expiry alerts and unit preference (metric/imperial)
-- **Empty State Feedback**: Clear message when no recipes match current pantry
+- Pantry Management**: Add, edit, and delete pantry items with name, quantity, unit, and optional expiry date
+- Pantry List Screen**: View all ingredients using a RecyclerView with custom adapter
+- Recipe Collection**: 20 pre-loaded recipes stored in SQLite database
+- Suggested Recipes**: Strict-matching logic shows only recipes you can make right now
+- Recipe Details**: View full ingredient list and preparation method for each recipe
+- Settings Screen**: Toggle for expiry alerts and unit preference (metric/imperial)
+- Empty State Feedback**: Clear message when no recipes match current pantry
 
-## Technical Details
+Technical Details
 
-### Database Choice: SQLite
+ Database Choice: SQLite
 
 This application uses SQLite with SQLiteOpenHelper for local data persistence. SQLite was chosen because:
 - Built into Android - no external dependencies required
@@ -26,46 +26,46 @@ This application uses SQLite with SQLiteOpenHelper for local data persistence. S
 - Consistent with module curriculum on persistent data storage
 - Reliable and widely used in Android development
 
-### Database Schema
+Database Schema
 
-**Pantry Items Table:**
+Pantry Items Table:
 - id (INTEGER PRIMARY KEY AUTOINCREMENT)
 - name (TEXT NOT NULL)
 - quantity (REAL NOT NULL)
 - unit (TEXT NOT NULL)
 - expiry_date (TEXT)
 
-**Recipes Table:**
+Recipes Table:
 - id (INTEGER PRIMARY KEY AUTOINCREMENT)
 - name (TEXT NOT NULL)
 - ingredients (TEXT NOT NULL)
 - method (TEXT NOT NULL)
 
-### Strict-Matching Algorithm
+Strict-Matching Algorithm
 
 The app implements a robust matching algorithm that:
 - Normalizes ingredient names (lowercase, removes trailing 's' for plurals)
 - Checks if ALL required ingredients are present in pantry
-- Uses fuzzy matching to handle slight variations (e.g., "tomato" matches "tomatoes")
+- Uses fuzzy matching to handle slight variations (e.g "tomato" matches "tomatoes")
 - Only displays recipes where every ingredient is available
 
-### Screens
+Screens
 
-1. **Main Activity**: Home screen with navigation to Pantry, Suggested Recipes, and Settings
-2. **Pantry List Activity**: Display all pantry items with edit/delete options
-3. **Add/Edit Ingredient Activity**: Form with validation for adding or editing ingredients
-4. **Suggested Recipes Activity**: List of recipes matching current pantry (strict-matching)
-5. **Recipe Detail Activity**: Full recipe with ingredients and method
-6. **Settings Activity**: User preferences for alerts and units
+1. Main Activity: Home screen with navigation to Pantry, Suggested Recipes, and Settings
+2. Pantry List Activity: Display all pantry items with edit/delete options
+3. Add/Edit Ingredient Activity: Form with validation for adding or editing ingredients
+4. Suggested Recipes Activity: List of recipes matching current pantry (strict-matching)
+5. Recipe Detail Activity: Full recipe with ingredients and method
+6. Settings Activity: User preferences for alerts and units
 
-## Setup Instructions
+Setup Instructions
 
-### Prerequisites
+Prerequisites
 - Android Studio (latest version recommended)
 - JDK 8 or higher
 - Android SDK (API level 21 or higher)
 
-### Running the Project
+Running the Project
 
 1. Clone this repository:
    ```bash
@@ -85,7 +85,7 @@ The app implements a robust matching algorithm that:
    - Click the Run button (green triangle) in Android Studio
    - Or use: `./gradlew installDebug`
 
-### Building APK
+Building APK
 
 To build a release APK:
 ```bash
@@ -94,11 +94,11 @@ To build a release APK:
 
 The APK will be located at: `app/build/outputs/apk/release/app-release.apk`
 
-## App Screenshots
 
-*(Add screenshots of your running app here after testing)*
 
-## Code Structure
+
+
+Code Structure
 
 ```
 app/src/main/java/com/example/smartpantrymanager/
@@ -115,29 +115,29 @@ app/src/main/java/com/example/smartpantrymanager/
 └── RecipeAdapter.java                  # RecyclerView adapter for recipes
 ```
 
-## Key Implementation Details
+Key Implementation Details
 
-### RecyclerView Implementation
+RecyclerView Implementation
 - Custom adapters for both pantry items and recipes
 - ViewHolder pattern for efficient scrolling
 - Click listeners for edit/delete actions
 
-### Database Operations
+Database Operations
 - Full CRUD (Create, Read, Update, Delete) for pantry items
 - Read-only for recipes (pre-seeded)
 - Data persists between app sessions
 
-### Navigation
+Navigation
 - Toolbar with back button on all screens except main
 - Intents used to pass data between activities
 - Activity lifecycle properly managed
 
-### Input Validation
+Input Validation
 - Required fields checked before saving
 - Numeric validation for quantity
 - Toast messages for user feedback
 
-## Testing
+Testing
 
 Test the following scenarios:
 1. Add ingredients to pantry
@@ -150,14 +150,14 @@ Test the following scenarios:
 8. Change settings
 9. Close and reopen app (data should persist)
 
-## Known Limitations
+Known Limitations
 
 - Expiry date is optional and not used for automatic alerts (UI toggle only)
 - Recipe matching is case-insensitive but doesn't handle all spelling variations
 - No cloud sync - data is local only
 - No ingredient quantity checking (presence/absence only)
 
-## Future Improvements
+Future Improvements
 
 If given more time, I would:
 - Implement actual expiry date notifications using AlarmManager
@@ -167,12 +167,8 @@ If given more time, I would:
 - Create a shopping list for missing ingredients
 - Add backup/restore functionality
 
-## Author
+Author:
 
-[Your Name]
-[Student Number]
+Kenrick Jodash Narrandes
+402306313
 Mobile App Development 700
-
-## License
-
-This project is for educational purposes only.

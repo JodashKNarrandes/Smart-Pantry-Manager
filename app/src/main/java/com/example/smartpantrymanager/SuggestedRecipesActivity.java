@@ -39,7 +39,7 @@ public class SuggestedRecipesActivity extends AppCompatActivity {
         if (matchingRecipes.isEmpty()) {
             // Show empty state message
             setContentView(R.layout.activity_suggested_recipes_empty);
-            Toolbar toolbar = findViewById(R.id.toolbar);
+            toolbar = findViewById(R.id.toolbar);
             toolbar.setTitle(R.string.suggested_recipes);
             setSupportActionBar(toolbar);
             if (getSupportActionBar() != null) {

@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.example.smartpantrymanager.app-merged_res-32:/layout_activity_pantry_list.xml.flat",
+        "source": "com.example.smartpantrymanager.app-main-34:/layout/activity_pantry_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-merged_res-32:\\layout_activity_recipe_detail.xml.flat",
+        "source": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-main-34:\\layout\\activity_recipe_detail.xml"
+    },
+    {
+        "merged": "com.example.smartpantrymanager.app-merged_res-32:/layout_activity_settings.xml.flat",
+        "source": "com.example.smartpantrymanager.app-main-34:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-merged_res-32:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-main-34:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-merged_res-32:\\layout_activity_suggested_recipes.xml.flat",
+        "source": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-main-34:\\layout\\activity_suggested_recipes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-merged_res-32:\\layout_activity_add_edit_ingredient.xml.flat",
+        "source": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-main-34:\\layout\\activity_add_edit_ingredient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-merged_res-32:\\layout_activity_pantry_list.xml.flat",
+        "source": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-main-34:\\layout\\activity_pantry_list.xml"
+    },
+    {
+        "merged": "com.example.smartpantrymanager.app-merged_res-32:/layout_activity_recipe_detail.xml.flat",
+        "source": "com.example.smartpantrymanager.app-main-34:/layout/activity_recipe_detail.xml"
+    },
+    {
+        "merged": "com.example.smartpantrymanager.app-merged_res-32:/layout_activity_suggested_recipes.xml.flat",
+        "source": "com.example.smartpantrymanager.app-main-34:/layout/activity_suggested_recipes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-merged_res-32:\\layout_item_recipe.xml.flat",
+        "source": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-main-34:\\layout\\item_recipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-merged_res-32:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-main-34:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.smartpantrymanager.app-merged_res-32:/layout_activity_add_edit_ingredient.xml.flat",
+        "source": "com.example.smartpantrymanager.app-main-34:/layout/activity_add_edit_ingredient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-merged_res-32:\\layout_activity_suggested_recipes_empty.xml.flat",
+        "source": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-main-34:\\layout\\activity_suggested_recipes_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-merged_res-32:\\layout_item_pantry.xml.flat",
+        "source": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-main-34:\\layout\\item_pantry.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Jodas\\.gradle\\daemon\\8.0\\com.example.smartpantrymanager.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.smartpantrymanager.app-merged_res-32:/layout_activity_suggested_recipes_empty.xml.flat",
+        "source": "com.example.smartpantrymanager.app-main-34:/layout/activity_suggested_recipes_empty.xml"
+    }
+]
